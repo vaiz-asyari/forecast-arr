@@ -1,4 +1,4 @@
-# Forecasting ARR
+# Forecasting ARR using k-NN
 Forecasting average room rate using k-nearest neighbor
 
 # Introduction
@@ -8,6 +8,9 @@ One of the main challenges in the hospitality business is the management of room
 
 # Average Room Rate
 Average room rate (ARR) is the average price of room sales obtained from the sale of the hotel room. Average room rate information is needed to determine the contribution of room revenue in covering the cost of the hotel. Since the price of a room in a hotel varies according to the type of room, then from the various prices can be obtained the average price. ARR shows how many rooms are sold by the hotel using the average calculation.
+<br>
+![alt text](https://github.com/vaiz-asyari/forecast-arr/blob/main/documentation/ARR.png
+?raw=true)
 <br>
 ARR gives an indication of single occupancy and discounting of rooms sold from the room shelf price, because this condition lowers ARR. ARR can be used to calculate lost room revenue, by multiplying the number of unsold rooms by the average rate. ARR can be compared to known break-even figures, to ascertain whether room division has resulted in profit on a given night. 
 
