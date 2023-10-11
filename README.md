@@ -1,5 +1,5 @@
 # Forecasting ARR using k-NN
-Forecasting average room rate using k-nearest neighbor
+Forecasting average room rate using k-nearest neighbor at Hotel S
 
 # Introduction
 <div align="justify">
