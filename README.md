@@ -22,7 +22,7 @@ ARR gives an indication of single occupancy and discounting of rooms sold from t
 <div align="justify">
 K-nearest neighbor (k-NN) is a classification technique that makes firm predictions on test data based on the comparison of K nearest neighbors. The nearest neighbor is the trained object that has the greatest similarity value or the smallest dissimilarity of the old data. The number of nearest neighbors is expressed by the value of k. The best k value depends on the data. In general, a high k value will reduce the effect of noise on classifications, but make the boundaries between each classification even more blurred.
 <br>
-<img src="./documentation/KNN.png" height="300rm">
-<br>
 The purpose of the k-NN algorithm is to classify new objects based on attributes and training samples. Where the results of the new test sample are classified based on the majority of categories in k-NN using the neighborliness classification as the predictive value of the new test data sample. The distance used is Eucliden Distance with the following formula.
+<br>
+<img src="./documentation/KNN.png" height="300rm">
 </div>
