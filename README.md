@@ -9,16 +9,20 @@ One of the main challenges in the hospitality business is the management of room
 </div>
 
 # Average Room Rate
+<div align="justify">
 Average room rate (ARR) is the average price of room sales obtained from the sale of the hotel room. Average room rate information is needed to determine the contribution of room revenue in covering the cost of the hotel. Since the price of a room in a hotel varies according to the type of room, then from the various prices can be obtained the average price. ARR shows how many rooms are sold by the hotel using the average calculation.
 <br>
-![ARR Formula](https://github.com/vaiz-asyari/forecast-arr/blob/main/documentation/ARR.png?raw=true)
+<img src="./documentation/ARR.png">
 <br>
-ARR gives an indication of single occupancy and discounting of rooms sold from the room shelf price, because this condition lowers ARR. ARR can be used to calculate lost room revenue, by multiplying the number of unsold rooms by the average rate. ARR can be compared to known break-even figures, to ascertain whether room division has resulted in profit on a given night. 
+ARR gives an indication of single occupancy and discounting of rooms sold from the room shelf price, because this condition lowers ARR. ARR can be used to calculate lost room revenue, by multiplying the number of unsold rooms by the average rate. ARR can be compared to known break-even figures, to ascertain whether room division has resulted in profit on a given night.
+</div>
 
 
 # K-Nearest Neighbor
+<div align="justify">
 K-nearest neighbor (k-NN) is a classification technique that makes firm predictions on test data based on the comparison of K nearest neighbors. The nearest neighbor is the trained object that has the greatest similarity value or the smallest dissimilarity of the old data. The number of nearest neighbors is expressed by the value of k. The best k value depends on the data. In general, a high k value will reduce the effect of noise on classifications, but make the boundaries between each classification even more blurred.
 <br>
-![KNN Formula](https://github.com/vaiz-asyari/forecast-arr/blob/main/documentation/KNN.png?raw=true)
+<img src="./documentation/KNN.png" height="300rm">
 <br>
 The purpose of the k-NN algorithm is to classify new objects based on attributes and training samples. Where the results of the new test sample are classified based on the majority of categories in k-NN using the neighborliness classification as the predictive value of the new test data sample. The distance used is Eucliden Distance with the following formula.
+</div>
