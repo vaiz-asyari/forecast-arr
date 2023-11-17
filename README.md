@@ -29,7 +29,14 @@ The purpose of the k-NN algorithm is to classify new objects based on attributes
 
 # Analysis of k-Nearest Neighbor Algorithm Testing with Split Data 70%:30%
 <div align="justify">
-From forecasting carried out using k-NN at 70%:30% split data is known that the best RSME found in k-values is 3 with an RMSE of 6.335. The comparison of the simulation with k-values is 3 to 7 in the 70%:30% data split can be seen in Figure 2.
+From forecasting carried out using k-NN at 70%:30% split data is known that the best RSME found in k-values is 3 with an RMSE of 6.335. The comparison of the simulation with k-values is 3 to 7 in the 70%:30% data split can be seen below.
 <br>
-<img src="./documentation/Forecasting ARR (Split Data 70%_30%) k-NN.png" height="300rm">
+<img src="./documentation/ARR_k-NN_70_30.png" height="500rm">
+</div>
+
+# Analysis of k-Nearest Neighbor Algorithm Testing with Split Data 80%:20%
+<div align="justify">
+From forecasting carried out using k-NN at 80%:20% split data is known that the best RSME found in k-values is 3 with an RMSE of 5.915. The comparison of the simulation with k-values is 3 to 7 in the 80%:20% data split can be seen below.
+<br>
+<img src="./documentation/ARR_k-NN_80_20.png" height="500rm">
 </div>
