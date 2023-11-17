@@ -3,7 +3,7 @@ Forecasting average room rate using k-nearest neighbor at Hotel S
 
 # Introduction
 <div align="justify">
-The hospitality business is one of the highly competitive sectors, with thousands of hotels competing for attention from potential customers. In Indonsia, until 2022 as conditions began to improve with the decline of the Covid-19 pandemic outbreak, the global economy began to rise, including accommodation business began to carry out activities as before although not completely normal, there were 29,742 accomodation businesses or an increase of 7.73% from 2021. In the fierce hotel business competition to manage a hotel business, a lot of data and analysis are needed to make the right decisions. One important indicator in assessing the performance of a hotel is the Average Room Rate (ARR) which shows the average price of rooms sold by the hotel in a certain period. ARR is calculated from total room sales divided by total room nights occupied. From the ARR data obtained, it can make a picture of the future regarding expansion to increase the value of ARR in the future.
+The hospitality business is one of the highly competitive sectors, with thousands of hotels competing for attention from potential customers. In Indonesia, until 2022 as conditions began to improve with the decline of the Covid-19 pandemic outbreak, the global economy began to rise, including accommodation business began to carry out activities as before although not completely normal, there were 29,742 accomodation businesses or an increase of 7.73% from 2021. In the fierce hotel business competition to manage a hotel business, a lot of data and analysis are needed to make the right decisions. One important indicator in assessing the performance of a hotel is the Average Room Rate (ARR) which shows the average price of rooms sold by the hotel in a certain period. ARR is calculated from total room sales divided by total room nights occupied. From the ARR data obtained, it can make a picture of the future regarding expansion to increase the value of ARR in the future.
 <br>
 One of the main challenges in the hospitality business is the management of room prices related to price wars. Prices are sometimes non-standard (pricing cannibalism) thus damaging market demand, even after entering online marketing with OTA (Online Travel Agent) media. Price war is caused by the large stock of unused rooms. It was recorded that the occupancy rate of hotel rooms in Indonesia in July 2023 only reached 42.07% of the total rooms, more than 57.93% of which were not used. Price wars by offering lower room rates to attract customers can result in lower ARR, significant ARR fluctuations, and affect hotel revenue. In this context, ARR forecasting is critical for making smarter decisions related to pricing different room types and avoiding price wars. Based on this, this study will forecast the average room rate using k-nearest neighbor at Hotel S.
 </div>
@@ -25,4 +25,11 @@ K-nearest neighbor (k-NN) is a classification technique that makes firm predicti
 The purpose of the k-NN algorithm is to classify new objects based on attributes and training samples. Where the results of the new test sample are classified based on the majority of categories in k-NN using the neighborliness classification as the predictive value of the new test data sample. The distance used is Eucliden Distance with the following formula.
 <br>
 <img src="./documentation/KNN.png" height="300rm">
+</div>
+
+# Analysis of k-Nearest Neighbor Algorithm Testing with Split Data 70%:30%
+<div align="justify">
+From forecasting carried out using k-NN at 70%:30% split data is known that the best RSME found in k-values is 3 with an RMSE of 6.335. The comparison of the simulation with k-values is 3 to 7 in the 70%:30% data split can be seen in Figure 2.
+<br>
+<img src="./documentation/Forecasting ARR (Split Data 70%_30%) k-NN.png" height="300rm">
 </div>
