@@ -40,3 +40,10 @@ From forecasting carried out using k-NN at 80%:20% split data is known that the 
 <br>
 <img src="./documentation/ARR_k-NN_80_20.png" height="500rm">
 </div>
+
+# Algorithm Testing Comparison
+<div align="justify">
+RMSE results with k-values are 3 to 4 most optimal in 80%:20% data splits of 5,915 and 6,793. RSME results with k-values are 5 to 6 most optimal in 70%:30% data splits of 8,265 and 8,990. RSME results with k-values are the 7 most optimal in a 70%:30% data split of 10,465. From the comparison of ARR forecasting using k-NN, the best forecasting was obtained at 80%:20% data split with k-values is 3 resulting in an RSME of 5.915 can be seen below.
+<br>
+<img src="./documentation/ARR_k-NN_80_20_k3.png" height="500rm">
+</div>
